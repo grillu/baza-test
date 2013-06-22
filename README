@@ -1,0 +1,11 @@
+Programik kozysta z MySQL Connector/C++
+wiecej tutaj: http://dev.mysql.com/doc/refman/5.5/en/connector-cpp-getting-started-examples.html
+do dzialania potrzebne jest utworzenie pliku db_conf.h z definicja polaczenia do bazy:
+
+//przykladowa zawartosc
+#define HOST "localhost"
+#define PORT "3306"
+#define DBNAME "testowa_baza"
+#define USERNAME "ludek"
+#define PASSWORD "haselko"
+
